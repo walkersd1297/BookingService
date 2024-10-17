@@ -9,3 +9,5 @@ class ServiceError extends Error{
         this.statusCode = statusCode;
     }
 }
+
+module.exports = ServiceError;
